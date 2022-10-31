@@ -1,0 +1,28 @@
+.hero__block{
+    max-width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: var(--hero-bc-color); 
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), 
+     url(../images/bgimagine\ squosh); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;   
+}
+
+.hero__title{
+    display: block;
+    margin-top: 0;
+    margin-bottom: 30px;
+    @include font(900, 44px, 1.36, 0.06em);
+    text-transform: uppercase;
+    color:var(--hero-text-color);
+}
+
+
+
