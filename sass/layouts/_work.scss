@@ -1,13 +1,13 @@
-.product__block{
+.section{
     padding: 94px 0;
     display: flex;
 }
 
-.work__items{
+.examples{
     display: flex;
 }
 
-.work__items .item + .item{
+.examples .item + .item{
     margin-left: 30px;
 }
 

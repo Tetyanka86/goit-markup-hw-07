@@ -1,4 +1,4 @@
-.footer__block{
+.footer{
     padding: 60px 0;
     box-sizing: border-box;
     background-color:var(--footer-bc-color);
@@ -33,7 +33,7 @@
     &:hover, &:focus{ color: var(--accent-color);}
 }
 
-.footer__container{
+.footer-container{
     display: flex;
     align-items:baseline;
 }

@@ -1,4 +1,4 @@
-.header__block{
+.part{
     max-width: 1600px;
     padding-left: 15px;
     padding-right: 15px;
@@ -14,7 +14,7 @@
 .navigation{
     @extend %align-element;}
 
-.menu__list {
+.navigation__info {
     display: flex;
     margin-left: 93px;
 }
@@ -40,13 +40,13 @@
 
 /* Contacts */
 
-.connect__list{
+.data{
     display: flex;
     margin-left: auto;
     @include font(500, 14px, 1.14, 0.02em);
 }
 
-.connect__list .nav + .nav{
+.data .nav + .nav{
     margin-left: 50px;
 }
 
